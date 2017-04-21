@@ -1,134 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>RubySchool.us</title>
-</head>
-<body>
+<html>
 
-<h3>Добро пожаловать!</h3>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link data-require="bootstrap@*" data-semver="4.0.5" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+    <script data-require="bootstrap@*" data-semver="4.0.5" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
 
-<ul>
-<li><a href="https://telegram.me/rubyschool">Наш чат в Telegram</a></li>
-<li><a href="#">Форум (временно недоступен)</a></li>
-<li>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display: inline">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-<input type="image" src="https://web-beta.archive.org/web/20170211164310im_/https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://web-beta.archive.org/web/20170211164310im_/https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-</li>
-<li><a href="https://github.com/ro31337/rubyschool/issues/1">Улучшить эту страницу</a></li>
-</ul>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <img src="https://avatars1.githubusercontent.com/u/14949379?v=3&amp;s=100" alt="logo" class="rounded" />
+          <h2>R U B Y S C H O O L</h2>
+        </div>
+      </div>
 
-<p>
-Ниже по ссылкам вы найдете уникальный материал — видео-курс по языку Ruby и платформе Rails на 100 часов, на русском языке. См.также: <a href="https://github.com/ro31337/rubyschool/blob/master/README.md">подробная информация о каждом уроке</a>.
-</p>
+      <div class="row">
+        <div class="col-sm-12">
+          <p>Добро пожаловать!</p>
+          <p>Ниже по ссылкам вы найдете уникальный и бесплатный материал, который помог многим — видео-курс по языку Ruby и платформе Rails на 100 часов, на русском языке. См.также: <a href="https://github.com/ro31337/rubyschool/blob/master/README.md">подробная информация о каждом уроке</a>.</p>
+          <ul>
+          <li><a href="https://telegram.me/rubyschool">Наш чат в Telegram</a></li>
+          <li><b>Форум временно недоступен</b> - спрашивайте домашние задания в чате</li>
+          <li><a href="https://github.com/ro31337/rubyschool/issues/1">Улучшить эту страницу</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-xs-12 col-sm-2 offset-sm-1">
+          <p>
+          <a href="https://vimeo.com/97899628" target="_blank">1 Урок</a>
+          <br/>
+          <a href="http://vimeo.com/98106875" target="_blank">2 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/98513352" target="_blank">3 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/98674054" target="_blank">4 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/99069410" target="_blank">5 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/99274545" target="_blank">6 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/99694298" target="_blank">7 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/99901316" target="_blank">8 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/100249761" target="_blank">9 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/100448185" target="_blank">10 Урок</a>
+        </div>
 
-<p>
-<a href="https://vimeo.com/97899628" target="_blank">1 Урок</a>
-<br/>
-<a href="http://vimeo.com/98106875" target="_blank">2 Урок</a>
-<br/>
-<a href="https://vimeo.com/98513352" target="_blank">3 Урок</a>
-<br/>
-<a href="https://vimeo.com/98674054" target="_blank">4 Урок</a>
-<br/>
-<a href="https://vimeo.com/99069410" target="_blank">5 Урок</a>
-<br/>
-<a href="https://vimeo.com/99274545" target="_blank">6 Урок</a>
-<br/>
-<a href="https://vimeo.com/99694298" target="_blank">7 Урок</a>
-<br/>
-<a href="https://vimeo.com/99901316" target="_blank">8 Урок</a>
-<br/>
-<a href="https://vimeo.com/100249761" target="_blank">9 Урок</a>
-<br/>
-<a href="https://vimeo.com/100448185" target="_blank">10 Урок</a>
-<br/>
-<a href="https://vimeo.com/100840323" target="_blank">11 Урок</a>
-<br/>
-<a href="https://vimeo.com/101027477" target="_blank">12 Урок</a>
-<br/>
-<a href="https://vimeo.com/101446372" target="_blank">13 Урок</a>
-<br/>
-<a href="https://vimeo.com/101654733" target="_blank">14 Урок</a>
-<br/>
-<a href="https://vimeo.com/102061373" target="_blank">15 Урок</a>
-<br/>
-<a href="https://vimeo.com/102265466" target="_blank">16 Урок</a>
-<br/>
-<a href="https://vimeo.com/102660057" target="_blank">17 Урок</a>
-<br/>
-<a href="https://vimeo.com/102869014" target="_blank">18 Урок</a>
-<br/>
-<a href="https://vimeo.com/103270896" target="_blank">19 Урок</a>
-<br/>
-<a href="https://vimeo.com/103460729" target="_blank">20 Урок</a>
-<br/>
-<a href="https://vimeo.com/103842266" target="_blank">21 Урок</a>
-<br/>
-<a href="https://vimeo.com/104044819" target="_blank">22 Урок</a>
-<br/>
-<a href="https://vimeo.com/104440956" target="_blank">23 Урок</a>
-<br/>
-<a href="https://vimeo.com/104651404" target="_blank">24 Урок</a>
-<br/>
-<a href="https://vimeo.com/105059530" target="_blank">25 Урок</a>
-<br/>
-<a href="https://vimeo.com/105281212" target="_blank">26 Урок</a>
-<br/>
-<a href="https://vimeo.com/105697050" target="_blank">27 Урок</a>
-<br/>
-<a href="https://vimeo.com/105911565" target="_blank">28 Урок</a>
-<br/>
-<a href="https://vimeo.com/106320921" target="_blank">29 Урок</a>
-<br/>
-<a href="https://vimeo.com/106564674" target="_blank">30 Урок</a>
-<br/>
-<a href="https://vimeo.com/106971178" target="_blank">31 Урок</a>
-<br/>
-<a href="https://vimeo.com/107188070" target="_blank">32 Урок</a>
-<br/>
-<a href="https://vimeo.com/107635378" target="_blank">33 Урок</a>
-<br/>
-<a href="https://vimeo.com/107854870" target="_blank">34 Урок</a>
-<br/>
-<a href="https://vimeo.com/108318836" target="_blank">35 Урок</a>
-<br/>
-<a href="https://vimeo.com/108592109" target="_blank">36 Урок</a>
-<br/>
-<a href="https://vimeo.com/108940079" target="_blank">37 Урок</a>
-<br/>
-<a href="https://vimeo.com/109171070" target="_blank">38 Урок</a>
-<br/>
-<a href="https://vimeo.com/109664111" target="_blank">39 Урок</a>
-<br/>
-<a href="https://vimeo.com/109891585" target="_blank">40 Урок</a>
-<br/>
-<a href="https://vimeo.com/110334305" target="_blank">41 Урок</a>
-<br/>
-<a href="https://vimeo.com/110753396" target="_blank">42 Урок</a>
-<br/>
-<a href="https://vimeo.com/110980033" target="_blank">43 Урок</a>
-<br/>
-<a href="https://vimeo.com/111232498" target="_blank">44 Урок</a>
-<br/>
-<a href="https://vimeo.com/111716601" target="_blank">45 Урок</a>
-<br/>
-<a href="https://vimeo.com/112254665" target="_blank">46 Урок</a>
-<br/>
-<a href="https://vimeo.com/112462865" target="_blank">47 Урок</a>
-<br/>
-<a href="https://vimeo.com/113003510" target="_blank">48 Урок</a>
-<br/>
-<a href="https://vimeo.com/113069144" target="_blank">49 Урок</a>
-<br/>
-<a href="https://vimeo.com/113518475" target="_blank">50 Урок</a>
-</p>
-<hr />
-<p>
-© 2014-2017 Roman Pushkin and Ruby School, San Francisco, CA, U.S.
-</p>
-</body>
+        <div class="col-xs-12 col-sm-2">
+          <a href="https://vimeo.com/100840323" target="_blank">11 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/101027477" target="_blank">12 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/101446372" target="_blank">13 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/101654733" target="_blank">14 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/102061373" target="_blank">15 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/102265466" target="_blank">16 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/102660057" target="_blank">17 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/102869014" target="_blank">18 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/103270896" target="_blank">19 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/103460729" target="_blank">20 Урок</a>
+
+        </div>
+
+        <div class="col-xs-12 col-sm-2">
+          <a href="https://vimeo.com/103842266" target="_blank">21 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/104044819" target="_blank">22 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/104440956" target="_blank">23 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/104651404" target="_blank">24 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/105059530" target="_blank">25 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/105281212" target="_blank">26 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/105697050" target="_blank">27 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/105911565" target="_blank">28 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/106320921" target="_blank">29 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/106564674" target="_blank">30 Урок</a>
+        </div>
+
+        <div class="col-xs-12 col-sm-2">
+          <a href="https://vimeo.com/106971178" target="_blank">31 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/107188070" target="_blank">32 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/107635378" target="_blank">33 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/107854870" target="_blank">34 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/108318836" target="_blank">35 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/108592109" target="_blank">36 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/108940079" target="_blank">37 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/109171070" target="_blank">38 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/109664111" target="_blank">39 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/109891585" target="_blank">40 Урок</a>
+        </div>
+
+        <div class="col-xs-12 col-sm-2">
+          <a href="https://vimeo.com/110334305" target="_blank">41 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/110753396" target="_blank">42 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/110980033" target="_blank">43 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/111232498" target="_blank">44 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/111716601" target="_blank">45 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/112254665" target="_blank">46 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/112462865" target="_blank">47 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/113003510" target="_blank">48 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/113069144" target="_blank">49 Урок</a>
+          <br/>
+          <a href="https://vimeo.com/113518475" target="_blank">50 Урок</a>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 offset-sm-2 text-center">
+          <p>
+            Если вам понравился курс, если вы нашли работу, если вы хотите увидеть новые уроки, найдите возможность
+            поддержать вашего учителя:  
+          </p>
+          
+          <div>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display: inline">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+            <input type="image" src="https://web-beta.archive.org/web/20170211164310im_/https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://web-beta.archive.org/web/20170211164310im_/https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <footer class="footer text-center" style="margin-top: 30px">
+        <p>© 2014-2017 Ruby School, Сан-Франциско, США</p>
+      </footer>
+    </div>
+  </body>
+
 </html>
