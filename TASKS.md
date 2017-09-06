@@ -33,9 +33,9 @@ i = 50, четное: true
 Сделать анимированную штуку из урока (1:24:20)
 
 Урок 6
-1. Посмотреть то, что Роман написал http://paste2.org/dkfBpGG8
+1. Посмотреть то, что Роман написал https://paste2.org/kev51Hab
 2. Посмотреть то, что написал Хан Соло 100000.times { print rand(30..120).chr }
-3. Программу, которая выводит сумму, которую хотите откладывать в месяц, http://paste2.org/LIPOWIUA (ссылка не работает), посмотреть и понять, как она работает.
+3. Программу, которая выводит сумму, которую хотите откладывать в месяц, https://paste2.org/0OIteUx5, посмотреть и понять, как она работает.
 4. Изменить программу в пункте (3) следующим образом: 
 	- программа должна спрашивать "Сколько лет будем копить: ",
 	- "Какую сумму будем откладывать в месяц: "
@@ -75,7 +75,7 @@ i = 50, четное: true
 
 Урок 10
 
-1. Доделать игру "Камень-ножницы-бумага" http://paste2.org/8KkN41O7 (ссылка не работает).
+1. Доделать игру "Камень-ножницы-бумага" http://paste2.org/8KkN41O7
 2. Писать свою программу.
 
 Урок 11
@@ -118,7 +118,7 @@ i = 50, четное: true
 1. Разбирать примеры из 15 урока.
 2. Разбирать примеры из 16 урока.
 3. http://phrogz.net/programmingruby/tut_classes.html (классы) читать и пробовать.
-4. http://tutorialspoint.com/ruby/ruby_modules.htm (модули)читать и пробовать.
+4. http://tutorialspoint.com/ruby/ruby_modules.htm (модули) читать и пробовать.
 
 
 Урок 17
@@ -140,7 +140,6 @@ i = 50, четное: true
 Урок 20
 
 1. Добавить в то, что написали на уроке, зону /admin, где по паролю будет выдаваться список тех, кто записался (из users.txt). Чтобы вывести на экран users.txt, введите в гугле: sinatra text file site:stackoverflow.com.
-2.
 
 Урок 21
 1. sinatra и twitter bootstrap - сделать так, чтобы можно было войти c помощью логина и пароля (чтобы логин был admin, пароль secret). https://github.com/bootstrap-ruby/sinatra-bootstrap.
@@ -281,7 +280,7 @@ CREATE TABLE "Cars" ("Id" INTEGER PRIMARY KEY AUTOINCREMENT, "Name" VARCHAR, "Pr
 3. Прочитать про CRUD на стр. 298.
 
 Урок 42
-1. Посмотреть как сделана авторизация в https://github.com/Defacto.Software/Hours (ссылка не работает).
+1. Посмотреть как сделана авторизация в https://github.com/DefactoSoftware/Hours
 2. Посмотреть https://github.com/plataformatec/devise (или найти на русском языке на habrahabr.ru описание devise и почитать).
 3. Глянуть примеры https://github.com/plataformatec/devise/wiki/Example-Applications
 4. Программа-максимум: добавить в свой блог поддержку Bootstrap.
