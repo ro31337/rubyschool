@@ -171,7 +171,7 @@
 
         2. Программа должна сохранять введенные данные в тот же файл.
 
-    Домашнее задание супер-максимум
+    Домашнее задание супер-максимум:
         Сделать то, что было задано на 21 урок (вход по логину и по паролю с помощью sinatra-bootstrap) - для тех, кто не сделал.
 
 Урок 23
@@ -180,13 +180,13 @@
 
 Урок 24
 
-    1. сделать раздел /contacts с валидацией в BarberShop.
+    1. Cделать раздел /contacts с валидацией в BarberShop.
     2. Отправлять почту на ваш адрес электронной почты через gmail (или через mail.yandex.ru). http://stackoverflow.com/questions/2068148/contact-form-in-ruby-sinatra-and-haml
 
 Урок 25
 
     1. Установить визуальную программу для работы с БД.
-    2.Создать БД BarberShop 
+    2. Создать БД BarberShop 
     3. Создать таблицы: 
         Таблица 1. Users 
             Id - идентификатор, primary key, автоинкремент, тип Integer
@@ -316,7 +316,7 @@
 
 Урок 45
 
-    1. Поставить virtualbox https://www.virtualbox.org/
+    1.  Поставить virtualbox https://www.virtualbox.org/
         Поставить https://www.vagrantup.com/
         Установить rails dev box согласно инструкциям https://github.com/rails/rails-dev-box
     2. Если не получилось - поставить linux Mint.
@@ -339,7 +339,7 @@
 Урок 48
 
     1. http://rusrails.ru/action-mailer-basics - читать.
-    2. (если у вас есть свой домен) зарегистрироваться на postmarkapp, попробовать гем https://github.com/wildbit/postmark-gem и https://github.com/wildbit/postmark-rails
+    2. (Если у вас есть свой домен) зарегистрироваться на postmarkapp, попробовать гем https://github.com/wildbit/postmark-gem и https://github.com/wildbit/postmark-rails
 
 Урок 49
 
@@ -348,5 +348,7 @@
 Урок 50
 
     1. Попробовать то, что мы делали - сделать в ruby программе (погуглить ruby regex, regexp).
-    2. Попробовать: а) тестировать строки на вхождения, б) заменять.
+    2. Попробовать:
+        а) тестировать строки на вхождения
+        б) заменять
     3. Программа-максимум: посмотреть match groups - что это такое и как применять.
