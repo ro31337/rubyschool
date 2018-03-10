@@ -301,6 +301,15 @@ Rubyschool.us list of contents (Russian)
 - добавляем поля username в devise 
 - настраиваем блог для поля username
 
+- *Примечание: в devise начиная с версии 4 параметры Sanitizer Api изменились, используйте вместо этого:
+```ruby
+  devise_parameter_sanitizer.for(:sign_up) << :username
+``` 
+   это:
+```ruby
+  devise_parameter_sanitizer.permit(:sign_up, keys: [:username])
+```  
+  
 Урок 44
 
 - “интервью” с другом Романа - Алексеем. Вопросы про Odesk (Upwork) и в целом про ruby и программирование
