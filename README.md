@@ -291,7 +291,7 @@ Rubyschool.us list of contents (Russian)
 - матчеры для тестов
 - пишем тест, закрывающий баги на github
 - devise: установка, минимальная настройка, создание ссылок для входа-выхода
-* Примечание: начиная с Rails 5 синтаксис before_filter устарел и заменан на before_action
+* Примечание: начиная с Rails 5 синтаксис before_filter устарел и заменён на before_action
 
 Урок 43
 
