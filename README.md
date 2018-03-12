@@ -332,6 +332,13 @@ Rubyschool.us list of contents (Russian)
 - устанавливаем shoulda-matchers
 - устанавливаем FactoryGirl: простейшая настройка, создание фабрики, тестирование
 - создаем фабрику с автоматическим назначением значений полей 
+- * Примечание: в gem Rake начиная с версии 11 отсутствует метод "last_comment", этот метод используется в rspec-rails поэтому если вы используете свежую версию Rake не используйте старую версию rspec-rails. Для этого впишите в Gemfile rspec-rails без версии, и тогда bundle install подтянет сразу новую версию.
+```ruby
+group :development, :test do
+  gem 'capybara'
+  gem 'rspec-rails'
+end
+``` 
 
 Урок 47
 
