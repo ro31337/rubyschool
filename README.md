@@ -348,7 +348,15 @@ Shoulda::Matchers.configure do |config|
   end
 end
 ```
-подробности http://matchers.shoulda.io/docs/v3.1.1/index.html
+  подробности http://matchers.shoulda.io/docs/v3.1.1/index.html
+  в файл с тестом вместо 
+```ruby
+  require 'spec_helper'
+```
+  добавьте 
+```ruby
+  require 'rails_helper'
+```
 
 Урок 47
 
