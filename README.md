@@ -357,6 +357,11 @@ end
 ```ruby
   require 'rails_helper'
 ```
+require 'support/factory_girl'
+- * Примечание 3: При настройке Factory_girl в rspec-rails старше 3.0 нужно добавить строчку в rails_helper
+```ruby
+  require 'support/factory_girl'
+```
 
 Урок 47
 
