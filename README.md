@@ -338,7 +338,27 @@ group :development, :test do
   gem 'capybara'
   gem 'rspec-rails'
 end
-``` 
+```
+- * Примечание 2: когда вы будете использовать Shoulda Matchers его нужно будет настроить, для этого в сгенерированной rails_helper.rb при запуске rails g rspec:install (rspec-rails в версии от 3.0) добавьте
+```ruby
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    # Choose a test framework:
+    with.test_framework :rspec
+    with.test_framework :minitest
+    with.test_framework :minitest_4
+    with.test_framework :test_unit
+
+    # Choose one or more libraries:
+    with.library :active_record
+    with.library :active_model
+    with.library :action_controller
+    # Or, choose the following (which implies all of the above):
+    with.library :rails
+  end
+end
+```
+подробности http://matchers.shoulda.io/docs/v3.1.1/index.html
 
 Урок 47
 
