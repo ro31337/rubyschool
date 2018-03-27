@@ -1,7 +1,8 @@
 # rubyschool
 Rubyschool.us list of contents (Russian)
 
-Регулировка скорости видео на Vimeo (расширение для Chrome) https://goo.gl/C78s5P
+полезные ссылки:
+-регулировка скорости видео на Vimeo (расширение для Chrome) https://goo.gl/C78s5P
 
 Урок 1
 
