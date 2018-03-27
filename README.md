@@ -1,7 +1,7 @@
 # rubyschool
 Rubyschool.us list of contents (Russian)
 
-Vimeo speed selector for Chrome https://goo.gl/C78s5P
+Регулировка скорости видео на Vimeo (расширение для Chrome) https://goo.gl/C78s5P
 
 Урок 1
 
