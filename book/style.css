@@ -1,0 +1,257 @@
+/* books */
+.bk-list {
+    list-style: none;
+    position: relative;
+    padding-top: 25px;
+}
+
+.bk-list li {
+    position: relative;
+    width: 260px;
+    height: 398px;
+    float: left;
+    z-index: 1;
+    margin: 0px 0px 18px 57px;
+    -webkit-perspective: 1800px;
+    -moz-perspective: 1800px;
+    perspective: 1800px;
+}
+
+.bk-list li:last-child {
+    margin-right: 0;
+}
+
+.no-touch .bk-info button:hover,
+.bk-info button.bk-active {
+    background: #d0544e;
+}
+
+.bk-list li .bk-book {
+    position: absolute;
+    width: 100%;
+    height: 398px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform .5s;
+    -moz-transition: -moz-transform .5s;
+    transition: transform .5s;
+}
+
+.bk-list li .bk-book.bk-bookdefault:hover {
+    -webkit-transform: rotate3d(0, 1, 0, 35deg);
+    -moz-transform: rotate3d(0, 1, 0, 35deg);
+    transform: rotate3d(0, 1, 0, 35 deg);
+}
+
+.bk-list li .bk-book > div,
+.bk-list li .bk-front > div {
+    display: block;
+    position: absolute;
+}
+
+.bk-list li .bk-front {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 0% 50%;
+    -moz-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-transition: -webkit-transform .5s;
+    -moz-transition: -moz-transform .5s;
+    transition: transform .5s;
+    -webkit-transform: translate3d(0, 0, 20px);
+    -moz-transform: translate3d(0, 0, 20px);
+    transform: translate3d(0, 0, 20px);
+    z-index: 10;
+}
+
+.bk-list li .bk-front > div {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.bk-list li .bk-page {
+    -webkit-transform: translate3d(0, 0, 19px);
+    -moz-transform: translate3d(0, 0, 19px);
+    transform: translate3d(0, 0, 19px);
+    display: none;
+    width: 295px;
+    height: 390px;
+    top: 5px;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 9;
+}
+
+.bk-list li .bk-front,
+.bk-list li .bk-back,
+.bk-list li .bk-front > div {
+    width: 260px;
+    height: 398px;
+}
+
+.bk-list li .bk-left,
+.bk-list li .bk-right {
+    width: 40px;
+    left: -20px;
+}
+
+.bk-list li .bk-top,
+.bk-list li .bk-bottom {
+    width: 295px;
+    height: 40px;
+    top: -15px;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.bk-list li .bk-back {
+    -webkit-transform: rotate3d(0, 1, 0, -180deg) translate3d(0, 0, 20px);
+    -moz-transform: rotate3d(0, 1, 0, -180deg) translate3d(0, 0, 20px);
+    transform: rotate3d(0, 1, 0, -180deg) translate3d(0, 0, 20px);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 3px 0 0 3px;
+}
+
+.bk-list li .bk-cover-back {
+    background-color: #000;
+    -webkit-transform: rotate3d(0, 1, 0, -180deg);
+    -moz-transform: rotate3d(0, 1, 0, -180deg);
+    transform: rotate3d(0, 1, 0, -180deg);
+}
+
+.bk-list li .bk-right {
+    height: 398px;
+    top: 5px;
+    -webkit-transform: rotate3d(0, 1, 0, 90deg) translate3d(0, 0, 295px);
+    -moz-transform: rotate3d(0, 1, 0, 90deg) translate3d(0, 0, 295px);
+    transform: rotate3d(0, 1, 0, 90deg) translate3d(0, 0, 295px);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.bk-list li .bk-left {
+    height: 398px;
+    -webkit-transform: rotate3d(0, 1, 0, -90deg);
+    -moz-transform: rotate3d(0, 1, 0, -90deg);
+    transform: rotate3d(0, 1, 0, -90deg);
+}
+
+.bk-list li .bk-viewinside .bk-front {
+    -webkit-transform: translate3d(0, 0, 20px) rotate3d(0, 1, 0, -160deg);
+    -moz-transform: translate3d(0, 0, 20px) rotate3d(0, 1, 0, -160deg);
+    transform: translate3d(0, 0, 20px) rotate3d(0, 1, 0, -160deg);
+}
+
+.bk-list li .bk-book.bk-viewinside {
+    -webkit-transform: translate3d(0, 0, 150px) rotate3d(0, 1, 0, 0deg);
+    -moz-transform: translate3d(0, 0, 150px) rotate3d(0, 1, 0, 0deg);
+    transform: translate3d(0, 0, 150px) rotate3d(0, 1, 0, 0deg);
+}
+
+.bk-list li .bk-book.bk-viewback {
+    -webkit-transform: translate3d(0, 0, 0px) rotate3d(0, 1, 0, 180deg);
+    -moz-transform: translate3d(0, 0, 0px) rotate3d(0, 1, 0, 180deg);
+    transform: translate3d(0, 0, 0px) rotate3d(0, 1, 0, 180deg);
+}
+
+.bk-list li .bk-viewback .bk-back {
+    z-index: 10;
+}
+
+.bk-list li .bk-page,
+.bk-list li .bk-right,
+.bk-list li .bk-top,
+.bk-list li .bk-bottom {
+    background-color: #fff;
+}
+
+.bk-list li .bk-front > div {
+    border-radius: 0 3px 3px 0;
+    box-shadow: inset 4px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bk-list li .bk-front:after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    left: -1px;
+    width: 1px;
+}
+
+.bk-list li .bk-cover:after,
+.bk-list li .bk-back:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10px;
+    bottom: 0;
+    width: 3px;
+    background: rgba(0, 0, 0, 0.06);
+    box-shadow: 1px 0 3px rgba(255, 255, 255, 0.1);
+}
+
+.bk-list li .bk-back:after {
+    left: auto;
+    right: 10px;
+}
+
+.bk-left h2 {
+    width: 350px;
+    height: 40px;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: rotate(90deg) translateY(-40px);
+    -moz-transform: rotate(90deg) translateY(-40px);
+    transform: rotate(90deg) translateY(-40px);
+}
+
+.book-1 .bk-front > div,
+.book-1 .bk-back,
+.book-1 .bk-left,
+.book-1 .bk-front:after {
+    background-color: #c9423e;
+}
+
+.book-1 .bk-cover h2 {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.book-1 .bk-cover h2 span:first-child,
+.book-1 .bk-left h2 span:first-child {
+    font-weight: 400;
+    font-size: 14px;
+    padding-right: 20px;
+}
+
+.book-1 .bk-cover h2 span:first-child {
+    display: block;
+}
+
+.book-1 .bk-left h2 {
+    color: #fff;
+    font-size: 15px;
+    line-height: 40px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.book-1 .bk-back p {
+    color: #fff;
+    font-size: 13px;
+    padding: 40px;
+    text-align: center;
+    font-weight: 700;
+}
