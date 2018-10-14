@@ -2,10 +2,12 @@
 
 1. Какой Linux дистрибутив использовать?
 
-Ответ: ubuntu-based дистрибутив, например, 
-- Linux Mint Cinnamon. linux mint 18 sarah cinnamon 64 bit
+Ответ: ubuntu-based дистрибутив, например,
+
+- Linux Mint Cinnamon. linux mint 18 sarah cinnamon 64 bit.
+  После запуска Live CD необходимо установить Mint из ярлыка на рабочем столе.
 - elementary OS
-<a href="https://elementary.io/">A fast and open replacement for Windows and macOS</a>
+  <a href="https://elementary.io/">A fast and open replacement for Windows and macOS</a>
 
 2. Как определить, какой гем нужен для работы? Гуглить по сайтам? И как конкретно обращаться с подключенным гемом? Ковыряться с документации и смотреть какие функции есть?
 
@@ -17,19 +19,27 @@
 https://www.google.com/#newwindow=1&q=gem+%22devise+vs%22
 
 https://www.google.com/#newwindow=1&q=gem+%22cancancan+vs%22
- 
+
 3. Какие основные команды в linux
-Ответ: 
-pwd - напечатать текущую директорию
-cd blabla - войти в  директорию blabla
-cd .. - подняться на уровень вверх
-cd ~ - войти в домашнюю директорию
-mkdir blabla - создать директорию
-ls - вывести список файлов
-ls -lah - вывести подробный список
-ruby app.rb - запустить программу
+   Ответ:
+   pwd - напечатать текущую директорию
+   cd blabla - войти в директорию blabla
+   cd .. - подняться на уровень вверх
+   cd ~ - войти в домашнюю директорию
+   mkdir blabla - создать директорию
+   ls - вывести список файлов
+   ls -lah - вывести подробный список
+   ruby app.rb - запустить программу
 
 4. Чем заменить стандартный bash?
-Ответ:
-Установить oh my zsh вместо стандартного bash. 
-Отсюда: https://github.com/robbyrussell/oh-my-zsh#basic-installation
+   Ответ:
+   Установить oh my zsh вместо стандартного bash.
+   Отсюда: https://github.com/robbyrussell/oh-my-zsh#basic-installation
+
+5. Как установить vm-ware-tools?
+   Ответ:
+   apt-get update
+   apt-get upgrade
+   reboot
+   apt-get install open-vm-tools-desktop
+   reboot
