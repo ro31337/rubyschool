@@ -20,26 +20,28 @@ https://www.google.com/#newwindow=1&q=gem+%22devise+vs%22
 
 https://www.google.com/#newwindow=1&q=gem+%22cancancan+vs%22
 
-3. Какие основные команды в linux
-   Ответ:
-   pwd - напечатать текущую директорию
-   cd blabla - войти в директорию blabla
-   cd .. - подняться на уровень вверх
-   cd ~ - войти в домашнюю директорию
-   mkdir blabla - создать директорию
-   ls - вывести список файлов
-   ls -lah - вывести подробный список
-   ruby app.rb - запустить программу
+3. Какие основные команды в linux?  
+    Ответ:  
+    `pwd` - напечатать текущую директорию  
+    `cd bar` - войти в директорию bar  
+    `cd ..` - подняться на уровень вверх  
+    `cd ~` - войти в домашнюю директорию  
+    `mkdir foo` - создать директорию foo  
+    `ls` - вывести список файлов  
+    `ls -lah` - вывести подробный список  
+    `ruby app.rb` - запустить программу app.rb
 
-4. Чем заменить стандартный bash?
-   Ответ:
-   Установить oh my zsh вместо стандартного bash.
-   Отсюда: https://github.com/robbyrussell/oh-my-zsh#basic-installation
+4. Чем заменить стандартный bash?  
+   Ответ:  
+   Установить **oh my zsh** вместо стандартного **bash**.  
+   Отсюда: https://github.com/robbyrussell/oh-my-zsh#basic-installation  
 
-5. Как установить vm-ware-tools?
-   Ответ:
-   apt-get update
-   apt-get upgrade
-   reboot
-   apt-get install open-vm-tools-desktop
-   reboot
+5. Как установить vm-ware-tools?  
+   Ответ:  
+   ```console
+   foo@bar:~$ apt-get update
+   foo@bar:~$ apt-get upgrade
+   foo@bar:~$ reboot
+   foo@bar:~$ apt-get install open-vm-tools-desktop
+   foo@bar:~$ reboot
+   ```
