@@ -63,13 +63,13 @@ Rubyschool.us list of contents (Russian)
 
 Урок 8
 
-- break, while true, ranges, each
-- разница между .. и ...
 - 1_000_000
 - калькулятор
 - if/else
 - задача: игра - угадываем число
-- ranges
+- break, while true, ranges, each
+- разница между .. и ...
+- rand
 
 Урок 9
 
