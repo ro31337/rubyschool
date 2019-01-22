@@ -187,6 +187,8 @@ Rubyschool.us list of contents (Russian)
 - устанавливаем datetimepicker
 - выборка из БД, вывод информации
 
+Примечание: Для работы datetimepicker необходимо использовать файл builder\jquery.datetimepicker.full.js
+
 Урок 27
 
 - разбираем домашнее задание
