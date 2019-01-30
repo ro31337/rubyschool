@@ -212,6 +212,12 @@ docker rm xxx; docker run -it --name xxx -p 4567:4567 ro31337/rubybook-save-the-
 - новое приложение-блог (Leprosorium)
 - прием параметра из ссылки
 
+Примечание:
+Если Win10x64 выдает: `require': cannot load such file -- sqlite3/sqlite3_native (LoadError)
+Нужно выполнить в консоли
+gem uninstall sqlite3 --all
+gem install sqlite3 --platform=ruby
+
 Урок 29
 
 - введение в ActiveRecord
