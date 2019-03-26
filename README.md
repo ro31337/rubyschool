@@ -258,6 +258,12 @@ gem install sqlite3 --platform=ruby
 - устанавливаем Rails
 - объяснение структуры Rails
 
+- *Примечание: Если при запуске rails приложения выходит ошибка со следующим текстом
+```Puma caught this error: Error loading the 'sqlite3' Active Record adapter. Missing a gem it depends on? can't activate sqlite3 (~> 1.3.6), already activated sqlite3-1.4.0. Make sure all dependencies are added to Gemfile. (LoadError)
+``` 
+   Необходимо в gemfile исправить следующeю строку:
+```gem 'sqlite3'``` на ```  gem 'sqlite3', '< 1.4'```
+
 Урок 35
 
 - ещё разбор вопросов, которые могут задавать на интервью при приёме на работу
