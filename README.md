@@ -16,7 +16,7 @@ Rubyschool.us list of contents (Russian)
 - puts, print, gets. #, \n
 - переменные
 - специальные символы
-- .chomp, .to_i, to_s
+- .chomp, .to_i, .to_s
 
 Урок 3
 
@@ -48,7 +48,7 @@ Rubyschool.us list of contents (Russian)
 Урок 6
 
 - блоки
-- .sleep, .times, do...end, rand
+- sleep, .times, do...end, rand
 - задания про upto, times, sleep
 - задача: рассчитать накопления (сколько будем откладывать и сколько месяцев)
 - formating disk, Matrix
@@ -57,7 +57,7 @@ Rubyschool.us list of contents (Russian)
 Урок 7
 
 - if...end, операторы сравнения, exit
-- задача: алгоритм "вы довольны зарплатой?" (Да\Нет)
+- задача: алгоритм "вы довольны зарплатой?" (Да/Нет)
 - задача: посчитать, сколько гостей придёт
 - задача: сделать игру "однорукий бандит"
 
@@ -95,7 +95,7 @@ Rubyschool.us list of contents (Russian)
 - задача: создаем словарик
 - задача: переделываем “однорукого бандита” с использованием хэшей
 - функции (описание и их вызов)
-- дз “Tic-Tac-Toe” (крестики-нолики)
+- дз: “Tic-Tac-Toe” (крестики-нолики)
 
 Урок 13
 
