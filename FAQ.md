@@ -49,8 +49,8 @@ https://www.google.com/#newwindow=1&q=gem+%22cancancan+vs%22
    Как установить актуальную версию (https://youtu.be/f6b5p5ss1nA)
    Ответ:
 
-```console
-foo@bar:~$ add-apt-repository ppa:git-core/ppa
-foo@bar:~$ apt-get update
-foo@bar:~$ apt-get install git
-```
+   ```console
+   foo@bar:~$ add-apt-repository ppa:git-core/ppa
+   foo@bar:~$ apt-get update
+   foo@bar:~$ apt-get install git
+   ```
