@@ -11,6 +11,15 @@ Rubyschool.us list of contents (Russian)
 - настраиваем окружение
 - устанавливаем программы
 
+Примечание:
+Установить файловый менеджер far:
+[Windows](https://www.farmanager.com/download.php)
+[Linux](https://github.com/elfmz/far2l)
+
+Если планируйте перейти на Linux то необходимо выбрать [Linux Mint Cinnamon](https://www.linuxmint.com/download.php)
+
+RubyInstaller это ruby-окружение для [Windows](https://rubyinstaller.ru/)
+
 Урок 2
 
 - puts, print, gets. #, \n
