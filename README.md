@@ -16,7 +16,7 @@ Rubyschool.us list of contents (Russian)
 [Windows](https://www.farmanager.com/download.php)
 [Linux](https://github.com/elfmz/far2l)
 
-Если планируйте перейти на Linux то необходимо выбрать [Linux Mint Cinnamon](https://www.linuxmint.com/download.php)
+Если планируете перейти на Linux, то необходимо выбрать [Linux Mint Cinnamon (English)](https://www.linuxmint.com/download.php)
 
 RubyInstaller это ruby-окружение для [Windows](https://rubyinstaller.ru/)
 
