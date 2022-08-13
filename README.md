@@ -22,10 +22,10 @@ RubyInstaller это ruby-окружение для [Windows](https://rubyinstal
 
 Урок 2
 
-- puts, print, gets. #, \n
+- `puts`, `print`, `gets`, #, \n
 - переменные
 - специальные символы
-- .chomp, .to_i, .to_s
+- `.chomp`
 
 Урок 3
 
