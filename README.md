@@ -22,10 +22,10 @@ RubyInstaller это ruby-окружение для [Windows](https://rubyinstal
 
 Урок 2
 
-- puts, print, gets. #, \n
+- `puts`, `print`, `gets`, #, \n
 - переменные
 - специальные символы
-- .chomp, .to_i, .to_s
+- `.chomp`
 
 Урок 3
 
@@ -33,7 +33,12 @@ RubyInstaller это ruby-окружение для [Windows](https://rubyinstal
 - типы данных: string, fixnum, float, integer
 - class, array. Hash
 - задача про сопротивление (закон Ома)
-- преобразование типов данных (to_i переводим в to_s)
+- преобразование типов данных:
+    - `.to_i` - в число 
+    - `.to_f` - в число с плавающей точкой
+    - `.to_s` - в строку
+
+Примечание: начиная с версии 2.4 Ruby объединяет классы `Fixnum` и `Bignum` в `Integer`.
 
 Урок 4
 
