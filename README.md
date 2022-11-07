@@ -2,7 +2,7 @@
 Rubyschool.us list of contents (Russian)
 
 полезные ссылки:
--регулировка скорости видео на Vimeo (расширение для Chrome) https://goo.gl/C78s5P
+-регулировка скорости видео на Vimeo расширение для [Chrome](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk), [Firefox](https://addons.mozilla.org/ru/firefox/addon/videospeed/)
 
 Урок 1
 
