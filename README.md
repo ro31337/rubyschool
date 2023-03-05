@@ -18,7 +18,7 @@ Rubyschool.us list of contents (Russian)
 
 Если планируете перейти на Linux, то необходимо выбрать [Linux Mint Cinnamon (English)](https://www.linuxmint.com/download.php)
 
-RubyInstaller это ruby-окружение для [Windows](https://rubyinstaller.ru/)
+RubyInstaller это ruby-окружение для [Windows](https://rubyinstaller.ru/). Скачать Ruby+Devkit и установить.
 
 Урок 2
 
@@ -161,6 +161,18 @@ RubyInstaller это ruby-окружение для [Windows](https://rubyinstal
 - установка DevKit на Windows
 - установка Sinatra
 - Helloworld на Синатре
+
+Примечание:
+Для установки hipchat под Windows
+1. Установить [Ruby+Devkit](https://rubyinstaller.ru/downloads/) (если ранее не был установлен)
+2. Скопировать файл [freedesktop.org.xml](https://disk.yandex.ru/d/K1Ugdi7dfukRSA) в папку c Ruby (для Ruby 2.7 "C:\Ruby27-x64\")
+3. Добавить переменную среду в Windows. Система - Дополнительные параметры системы - Переменные среды - Создать
+* Имя переменной:
+FREEDESKTOP_MIME_TYPES_PATH
+* Значение:
+C:\Ruby27-x64\freedesktop.org.xml
+4. в консоле вводим gem install mimemagic
+5. в консоле вводим gem install hipchat
 
 Урок 20
 
