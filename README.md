@@ -158,7 +158,7 @@ RubyInstaller это ruby-окружение для [Windows](https://rubyinstal
 
 Урок 19
 
-- установка DevKit на Windows 
+- установка DevKit на Windows
 - установка Sinatra
 - Helloworld на Синатре
 
