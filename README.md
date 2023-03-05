@@ -164,7 +164,7 @@ RubyInstaller это ruby-окружение для [Windows](https://rubyinstal
 
 Примечание:
 Для установки hipchat под Windows
-1. Установить Ruby+Devkit https://rubyinstaller.org/downloads/ (если ранее не был установлен)
+1. Установить [Ruby+Devkit](https://rubyinstaller.ru/downloads/) (если ранее не был установлен)
 2. Скопировать файл [freedesktop.org.xml](https://disk.yandex.ru/d/K1Ugdi7dfukRSA) в папку c Ruby (для Ruby 2.7 "C:\Ruby27-x64\")
 3. Добавить переменную среду в Windows. Система - Дополнительные параметры системы - Переменные среды - Создать
 * Имя переменной:
